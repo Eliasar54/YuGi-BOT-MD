@@ -208,7 +208,7 @@ printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 logger: pino({ level: 'silent' }),
 auth: { creds: state.creds, keys: makeCacheableSignalKeyStore(state.keys, pino({level: 'silent'})) },
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['NovaBot-MD', 'Safari', '1.0.0'] : methodCodeQR ? ['NovaBot-MD', 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
+browser: opcion == '1' ? ['𝐘𝐮𝐆𝐢-𝐁𝐎𝐓', 'Safari', '1.0.0'] : methodCodeQR ? ['𝐘𝐮𝐆𝐢-𝐁𝐎𝐓', 'Safari', '1.0.0'] : ["Ubuntu", "Chrome", "20.0.04"],
 markOnlineOnConnect: true, 
 generateHighQualityLinkPreview: true, 
 syncFullHistory: true,
@@ -310,8 +310,8 @@ for (let fucker of fuckedcall) {
 if (fucker.isGroup == false) {
 if (fucker.status == "offer") {
 let call = await sock.sendTextWithMentions(fucker.from, `*[ ! ] @${fucker.from.split('@')[0]} ${lenguaje['smscall']()} ${fucker.isVideo ? `videollamadas` : `llamadas` }_\n\n${lenguaje['smscall2']()}\n\n• ${fb}`)
-let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Propietario 👑;;;\nFN:Propietario\nORG:Propietario 👑\nTITLE:\nitem1.TEL;waid=447700168473:+44 7700 168473\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
-sock.sendMessage(fucker.from, { contacts: { displayName: 'ɴᴏᴠᴀʙᴏᴛ-ᴍᴅ 👑', contacts: [{ vcard }] }}, {quoted: call, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;Propietario 👑;;;\nFN:Propietario\nORG:Propietario 👑\nTITLE:\nitem1.TEL;waid=50582340051:+50582340051\nitem1.X-ABLabel:Propietario 👑\nX-WA-BIZ-DESCRIPTION:ᴇsᴄʀɪʙɪ sᴏʟᴏ ᴘᴏʀ ᴄᴏsᴀs ᴅᴇʟ ʙᴏᴛ.\nX-WA-BIZ-NAME:Owner 👑\nEND:VCARD`
+sock.sendMessage(fucker.from, { contacts: { displayName: '𝐘𝐮𝐆𝐢-𝐁𝐎𝐓👑', contacts: [{ vcard }] }}, {quoted: call, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 await sleep(8000)
 await sock.updateBlockStatus(fucker.from, "block")
 }}}})
@@ -571,7 +571,7 @@ let bye = by[Math.floor(Math.random() * by.length)]
 if (media === 'texto')
 sock.sendMessage(anu.id, { text: bye, mentions: [num]}, {quoted: null, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 if (media === 'texto2')
-sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue alv : @${name.split("@")[0]} 😹\`\`\``,
+sock.sendMessage(anu.id, { text: `\`\`\`[!] C fue ala chingada: @${name.split("@")[0]} 🤡\`\`\``,
 contextInfo:{
 forwardedNewsletterMessageInfo: { 
 newsletterJid: '120363160031023229@newsletter', 
@@ -651,11 +651,11 @@ console.log(receivedPendingNotifications)
 if (isNewLogin) sock.isInit = true
 if (connection == 'connecting') {
 console.log(chalk.gray('iniciando...'));
-say('NovaBot-MD', {
+say('YuGi-BOT-MD', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`By: elrebelde21`, {
+say(`By: ELIASAR_YT`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']})

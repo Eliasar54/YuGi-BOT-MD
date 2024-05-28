@@ -191,3 +191,6 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 ## `𝙰𝙶𝚁𝙰𝙳𝙴𝙲𝙸𝙼𝙸𝙴𝙽𝚃𝙾𝚂 & 𝙲𝚁𝙴𝙳𝙸𝚃𝙾𝚂` 
 <a href="https://github.com/ferhacks"><img src="https://github.com/ferhacks.png" width="150" height="150" alt="ferhacks"/></a>
 <a href="https://github.com/WhiskeySockets/Baileys"><img src="https://github.com/WhiskeySockets.png" width="150" height="150" alt="adiwajshing"/></a>
+# Prueba
+# Prueba
+# Prueba

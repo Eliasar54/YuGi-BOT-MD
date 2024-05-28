@@ -4,14 +4,14 @@ const chalk = require('chalk')
 const { en, es, ar, id, pt, rs} = require('./libs/idiomas/total-idiomas.js') 
 
 //---------[ PROPIETARIO/OWNER ]---------
-global.owner = [["447700168473", "Owner", true], ["593968585383"], ["5492266466080"], ["595986172767"], ["5492266613038"], ["5217294888993"], ["5214434703586"], ["5214437863111"], ["51906662557"], ["595992302861"], ["5217441298510"], ["5491155983299"], ["5493795319022"], ["5217821153974"], ["573012482597"]]
+global.owner = [["447700168473", "Owner", true], ["50582340051"], ["5492266466080"], ["595986172767"], ["5492266613038"], ["5217294888993"], ["5214434703586"], ["5214437863111"], ["51906662557"], ["595992302861"], ["5217441298510"], ["5491155983299"], ["5493795319022"], ["5217821153974"], ["573012482597"]]
 global.mods = []
 global.premium = []  
 global.blockList = []  
 
 //---------[ NOMBRE/INFO ]---------
-global.botname = "𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃"
-global.wm = 'Ｎ Ｏ Ｖ Ａ Ｂ Ｏ Ｔ- Ｍ Ｄ 💫'
+global.botname = "𝐘𝐮𝐆𝐢-𝐁𝐎𝐓[𝐌𝐃]"
+global.wm = 'YuGi-BOt - Ｍ Ｄ 💫'
 global.vs = '1.1.0'
 
 //Función beta : escribe el número que quiere que sea bot para que mande el Código de 8 digitos
@@ -71,7 +71,7 @@ global.APIKeys = {
 };
  
 //---------[ STICKERS ]---------
-global.packname = "𝐍𝐨𝐯𝐚𝐁𝐨𝐭-𝐌𝐃"
+global.packname = "𝐘𝐮𝐆𝐢-𝐁𝐎𝐓[𝐌𝐃]"
 global.author = `${vs}`
  
 //---------[ IMAGEN ]---------
@@ -82,23 +82,23 @@ global.noperfil = fs.readFileSync('./media/sinfoto.jpg')
 
 //---------[ ENLACES ]---------
 global.md = 'https://github.com/elrebelde21/NovaBot-MD'
-global.yt = 'https://www.youtube.com/@elrebelde.21'
-global.tiktok = 'tiktok.com/@elrebelde21'
-global.fb = 'https://www.facebook.com/elrebelde21'
-global.faceb = 'https://facebook.com/groups/872989990425789/'
-global.paypal = 'https://paypal.me/OfcGB' 
+global.yt = 'https://www.youtube.com/@Eliasar_yt'
+global.tiktok = 'https://www.tiktok.com/@eliasar_yt?_t=8mjJpoJfOBK&_r=1'
+global.fb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD'
+global.faceb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD'
+global.paypal = 'https://www.paypal.me/EliasarMoncada72' 
 
 global.host = 'https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV' //Infinity-host
-global.nna = 'https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A' //Update 
-global.nn = 'https://chat.whatsapp.com/HNDVUxHphPzG3cJHIwCaX5' //LoliBot
-global.nn2 = 'https://chat.whatsapp.com/H4hxytyGvucIF1k0UAR7es' //Loli & Nova
-global.nn3 = 'https://chat.whatsapp.com/Ej5AUrpmYnJKYtEa6YMwK6' //Grupo de Colaboracion
-global.nn4 = 'https://chat.whatsapp.com/E9qJfvlLjENKAxnhII9rao' // Grupo COL 2
-global.nn5 = 'https://chat.whatsapp.com/B6vVEmV3zffHNyabOMtzSb' //Grupo COL 3
-global.nn6 = 'https://chat.whatsapp.com/Em4Byf4w5VgHObPvZQlfnM' //test
-global.nn7 = 'https://chat.whatsapp.com/FDRfhecUGrCEQswkg8FUYz' //Grupo ayuda sobre el bot
-global.nn8 = 'https://chat.whatsapp.com/KlqNmoUcVnsGJxIfATIDrK' //enlace lolibot
-global.multi = 'https://chat.whatsapp.com/IB9Vs7mZ03BBkH3reCU8Dw' //Grupo COL 4
+global.nna = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Update 
+global.nn = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //𝐘𝐮𝐆𝐢-𝐁𝐎𝐓
+global.nn2 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Loli & Nova
+global.nn3 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Grupo de Colaboracion
+global.nn4 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' // Grupo COL 2
+global.nn5 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Grupo COL 3
+global.nn6 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //test
+global.nn7 = 'https://chat.whatsapp.com/G4KciisZjbf5xEopQHOTY6' //Grupo ayuda sobre el bot
+global.nn8 = 'https://chat.whatsapp.com/GUt42aI8pfA4mCJF55KaaA' //enlace lolibot
+global.multi = 'https://chat.whatsapp.com/GUt42aI8pfA4mCJF55KaaA' //Grupo COL 4
 global.nna2 = 'Em4Byf4w5VgHObPvZQlfnM'
 
 //---------[ INFO ]--------- 

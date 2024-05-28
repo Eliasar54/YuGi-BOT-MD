@@ -413,83 +413,80 @@ let menuOwner = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
 
 if (command == 'menu' || command == 'help') {
 m.react('💫') 
-let menu = `╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ ┏━━━━━━━━━━━━━━•
-┊┃ ┃${lenguaje['smsWel']()} @${sender.split("@")[0]} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 👋🏻
-┊┃ ┗━━━━━━━━━━━━━━•
-┊┃ ┏━━━━━━━━━━━━━━•
-┊┃ ┃ \`ℹ️ ＩＮＦＯＢＯＴ\`
-┊┃ ┗━━━━━━━━━━━━━━•
-┊┃ ┏━━━━━━━━━━━━━━•
-┊┃ ┃${lenguaje.menu.text} [ ${prefix} ]
-┊┃ ┃${lenguaje.menu.text2} ${date}
-┊┃ ┃${lenguaje.menu.text3} ${time}
-┊┃ ┃${lenguaje.menu.text4} ${vs}
-┊┃ ┃${lenguaje.menu.text5} ${Object.keys(global.db.data.users).length}
-┊┃ ┃${lenguaje.menu.text6} ${runtime(process.uptime())}
-┊┃ ┃${lenguaje.menu.text7} ${conn.public ? 'publico' : 'privado'}
-┊┃ ┃${conn.user.id == global.numBot2 ? `${lenguaje.menu.textt} ` : `${lenguaje.menu.texttt} @${global.numBot.split`@`[0]}`}
-┊┃ ┗━━━━━━━━━━━━━━•
-┊┃ ┏━━━━━━━━━━━━━━•
-┊┃ ┃ \`👥 INFO DEL USUARIO\`
-┊┃ ┗━━━━━━━━━━━━━━•
-┊┃ ┏━━━━━━━━━━━━━━•
-┊┃ ┃${lenguaje.menu.text8} ${user.limit}
-┊┃ ┃${lenguaje.menu.text9} ${user.level}
-┊┃ ┃${lenguaje.menu.text10} ${user.role}
-┊┃ ┃❐ ᴇxᴘ : ${user.exp}
-┊┃ ┃❐ ᴄᴏɪɴs : ${user.money}
-┊┃ ┃ 
-┊┃ ┃${lenguaje.menu.text11} ${rtotalreg} de ${totalreg}
-┊┃ ┗━━━━━━━━━━━━━━•
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩ 
+let menu = `╭━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─╮
+┃ ${lenguaje['smsWel']()} @${sender.split("@")[0]} ${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓' : ''} 👋🏻┃
+╰━─━─━─━─━─━─━─━─━─━─━─━─━─━─━─╯
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ 𝓘𝓝𝓕𝓞𝓑𝓞𝓣 ℹ️
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ ❐ ${lenguaje.menu.text} [ ${prefix} ]
+┃ ❐ ${lenguaje.menu.text2} ${date}
+┃ ❐ ${lenguaje.menu.text3} ${time}
+┃ ❐ ${lenguaje.menu.text4} ${vs}
+┃ ❐ ${lenguaje.menu.text5} ${Object.keys(global.db.data.users).length}
+┃ ❐ ${lenguaje.menu.text6} ${runtime(process.uptime())}
+┃ ❐ ${lenguaje.menu.text7} ${conn.public ? 'publico' : 'privado'}
+┃ ❐ ${conn.user.id == global.numBot2 ? `${lenguaje.menu.textt}` : `${lenguaje.menu.texttt} @${global.numBot.split`@`[0]}`}
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ 𝓘𝓝𝓕𝓞 𝓓𝓔𝓛 𝓤𝓢𝓤𝓐𝓡𝓘𝓞 👥
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ ❐ ${lenguaje.menu.text8} ${user.limit}
+┃ ❐ ${lenguaje.menu.text9} ${user.level}
+┃ ❐ ${lenguaje.menu.text10} ${user.role}
+┃ ❐ ᴇxᴘ : ${user.exp}
+┃ ❐ ᴄᴏɪɴs : ${user.money}
+┃ ❐ ${lenguaje.menu.text11} ${rtotalreg} de ${totalreg}
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
 
 ${pickRandom([`\`¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐨𝐛𝐭𝐞𝐧𝐞𝐫 𝐭𝐮 𝐛𝐨𝐭 𝐩𝐞𝐫𝐬𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐝𝐨?\`
-https://www.facebook.com/elrebelde21`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓMARTE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUI\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repositorio con una estrellita ☺\`\n${md}\``])}
+https:https://www.facebook.com/profile.php?id=100087710532984&mibextid=kFxxJD`, `\`□ CÓMO INSTALAR EL BOT\`\n${yt}`, `\`¿Qué hay de nuevo?\`\n• Pon : ${prefix}nuevo`, `\`💫 INFÓMARTE SOBRE LAS NUEVAS ACTUALIZACIONES, NOVEDADES DEL BOT AQUI\`\n${nna}`, `\`🌟¿Te agrada el bot? califica nuestro repositorio con una estrellita ☺\`\n${md}\``])}
 
-╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩
-┊┏━━━━━━━━━━━━━━•
-┊┃ *🟢 ＬＩＳＴＡ ＤＥ ＣＯＭＡＮＤＯＳ*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}allmenu | menucompleto
-┊┃ ❏ ${prefix}menu1 | descarga
-┊┃ ❏ ${prefix}menu2 | audio
-┊┃ ❏ ${prefix}menu3 | menugrupos
-┊┃ ❏ ${prefix}menu4 | menubuscadores
-┊┃ ❏ ${prefix}menu5 | menujuegos
-┊┃ ❏ ${prefix}menu6 | menuefecto
-┊┃ ❏ ${prefix}menu7 | menuconvertidores
-┊┃ ❏ ${prefix}menu8 | menurandom
-┊┃ ❏ ${prefix}menu9 | menuRPG
-┊┃ ❏ ${prefix}menu10 | menuSticker
-┊┃ ❏ ${prefix}menu11 | menuOwner
-┊┃ ❏ ${prefix}menu18 | menuhorny
-┊┃ ❏ ${prefix}logos 
-┊┃━━━━━━━━━━━━━━•
-┊┃ *💫 ＩＮＦＯＲＭＡＣＩＯ́Ｎ 💫*
-┊┃━━━━━━━━━━━━━━•
-┊┃ ❏ ${prefix}estado _(estado del bot)_
-┊┃ ❏ ${prefix}nuevo _(nuevo comando)_
-┊┃ ❏ ${prefix}reglas _(reglas)_
-┊┃ ❏ ${prefix}ping
-┊┃ ❏ ${prefix}velocidad
-┊┃ ❏ ${prefix}grupos _(grupos oficiales)_
-┊┃ ❏ ${prefix}join _(solicita un bot para tu grupo)_
-┊┃ ❏ ${prefix}owner
-┊┃ ❏ ${prefix}creador _(contactos de mi creador)_
-┊┃ ❏ ${prefix}instalarbot (Tutorial del instalacion)_
-┊┃ ❏ ${prefix}solicitud
-┊┃ ❏ ${prefix}cuenta 
-┊┃ ❏ ${prefix}cuentaoficiales
-┊┃ ❏ ${prefix}status 
-┊┃ ❏ ${prefix}enable 
-┊┃ ❏ ${prefix}configurar
-┊┃ ❏ ${prefix}cafirexos
-┊┃ ❏ ${prefix}report _(reporta errores)_
-┊┗━━━━━━━━━━━━━━•
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⪩`
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ 🟢 𝓛𝓘𝓢𝓣𝓐 𝓓𝓔 𝓒𝓞𝓜𝓐𝓝𝓓𝓞𝓢 🟢
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ ❏ ${prefix}allmenu | menucompleto
+┃ ❏ ${prefix}menu1 | descarga
+┃ ❏ ${prefix}menu2 | audio
+┃ ❏ ${prefix}menu3 | menugrupos
+┃ ❏ ${prefix}menu4 | menubuscadores
+┃ ❏ ${prefix}menu5 | menujuegos
+┃ ❏ ${prefix}menu6 | menuefecto
+┃ ❏ ${prefix}menu7 | menuconvertidores
+┃ ❏ ${prefix}menu8 | menurandom
+┃ ❏ ${prefix}menu9 | menuRPG
+┃ ❏ ${prefix}menu10 | menuSticker
+┃ ❏ ${prefix}menu11 | menuOwner
+┃ ❏ ${prefix}menu18 | menuhorny
+┃ ❏ ${prefix}logos 
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
+
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ 💫 𝓘𝓝𝓕𝓞𝓡𝓜𝓐𝓒𝓘Ó𝓝 💫
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯
+╭━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╮
+┃ ❏ ${prefix}estado _(estado del bot)_
+┃ ❏ ${prefix}nuevo _(nuevo comando)_
+┃ ❏ ${prefix}reglas _(reglas)_
+┃ ❏ ${prefix}ping
+┃ ❏ ${prefix}velocidad
+┃ ❏ ${prefix}grupos _(grupos oficiales)_
+┃ ❏ ${prefix}join _(solicita un bot para tu grupo)_
+┃ ❏ ${prefix}owner
+┃ ❏ ${prefix}creador _(contactos de mi creador)_
+┃ ❏ ${prefix}instalarbot _(Tutorial de instalación)_
+┃ ❏ ${prefix}solicitud
+┃ ❏ ${prefix}cuenta 
+┃ ❏ ${prefix}cuentaoficiales
+┃ ❏ ${prefix}status 
+┃ ❏ ${prefix}enable 
+┃ ❏ ${prefix}configurar
+┃ ❏ ${prefix}cafirexos
+┃ ❏ ${prefix}report _(reporta errores)_
+╰━━━━•━━━━•━━━━•━━━━•━━━━•━━━━╯`
 conn.sendMessage(m.chat, { text: menu,  
 contextInfo:{  
 forwardedNewsletterMessageInfo: { 

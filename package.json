@@ -1,5 +1,5 @@
 {
-  "name": "NovaBot-MD",
+  "name": "𝐘𝐮𝐆𝐢-𝐁𝐎𝐓-𝐌𝐃",
   "version": "1.1.0",
   "description": "Bot de whatsapp",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "qr": "node index.js qr",
   "code": "node index.js code",
   "vortexus": "bash vortexus.sh" },
-  "author": "elrebelde21",
+  "author": "Eliasar_yt",
   "license": "ISC",
   "dependencies": {
    "@whiskeysockets/baileys": "^6.7.2",

@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.0
+2 info using node@v20.13.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/node_modules/imagemaker.js/.npmrc
+5 silly config load:file:/home/container/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-05-27T21_38_26_427Z-
+10 verbose logfile /home/container/.npm/_logs/2024-05-27T21_38_26_427Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.yarnpkg.com/npm 170ms
+13 verbose cwd /home/container/node_modules/imagemaker.js
+14 verbose os Linux 5.15.0-107-generic
+15 verbose node v20.13.1
+16 verbose npm  v10.8.0
+17 verbose exit 0
+18 info ok
