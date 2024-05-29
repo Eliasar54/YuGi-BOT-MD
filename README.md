@@ -61,8 +61,4 @@ Para obtener un nuevo código QR, sigue estos pasos:
     npm start
     ```
 
-## Actualizar YuGi-BOT-MD
 
-Para actualizar YuGi-BOT-MD automáticamente, usa el siguiente comando:
-```sh
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/elrebelde21/NovaBot-MD/master/update.sh | bashEste comando hará un respaldo de tu archivo database.json y lo agregará a la versión más reciente del bot.Advertencia: Estos comandos solo funcionan en Termux, Replit, y Linux.Activar el bot 24/7 (Termux)Para mantener el bot activo 24/7, usa los siguientes comandos:npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logsInformación adicionalGrupo de soporte: WhatsApp GroupImagen de perfil: �Número del creador: +50582340051Perfil del creador: GitHub - Eliasar54¡Disfruta usando YuGi-BOT-MD
