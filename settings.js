@@ -89,8 +89,8 @@ global.faceb = 'https://www.facebook.com/profile.php?id=100087710532984&mibextid
 global.paypal = 'https://www.paypal.me/EliasarMoncada72' 
 
 global.host = 'https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV' //Infinity-host
-global.nna = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Update 
-global.nn = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //𝐘𝐮𝐆𝐢-𝐁𝐎𝐓
+global.nna = 'https://chat.whatsapp.com/JHnIQUdCGBHHsA6naIGjHG' //Update 
+global.nn = 'https://chat.whatsapp.com/JHnIQUdCGBHHsA6naIGjHG' //𝐘𝐮𝐆𝐢-𝐁𝐎𝐓
 global.nn2 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Loli & Nova
 global.nn3 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' //Grupo de Colaboracion
 global.nn4 = 'https://chat.whatsapp.com/C4LPn0cWKrx8Y7UgGZkneI' // Grupo COL 2
