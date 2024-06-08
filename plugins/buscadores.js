@@ -123,7 +123,7 @@ if (prefix == 'a' || prefix == 'A') return
 if (!text) return m.reply(`${lenguaje.lengua.ia} ${prefix + command} Recomienda un top 10 de películas de acción`) 
 try {
 conn.sendPresenceUpdate('composing', m.chat);
-let sistema1 = `Actuaras como un Bot de WhatsApp el cual fue creado por elrebelde21, tu seras NovaBot-MD`;
+let sistema1 = `Actuaras como un Bot de WhatsApp el cual fue creado por eliasar yt, tu seras YuGi-BOT`;
 async function getOpenAIChatCompletion(texto) {
 const openaiAPIKey = global.openai_key;
 let chgptdb = global.chatgpt.data.users[m.sender];
@@ -135,7 +135,11 @@ const response = await fetch(url, {method: "POST", headers: headers, body: JSON.
 const result = await response.json();
 const finalResponse = result.choices[0].message.content;
 return finalResponse;
-};
+};try {
+    m.react('💬')
+} catch (error) {
+    console.error("Ocurrió un error al reaccionar:", error);
+}
 let respuesta = await getOpenAIChatCompletion(text);
 if (respuesta == 'error' || respuesta == '' || !respuesta) return XD; // causar error undefined para usar otra api
 m.reply(`${respuesta}`.trim());
