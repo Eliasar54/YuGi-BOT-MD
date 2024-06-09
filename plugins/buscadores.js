@@ -150,7 +150,7 @@ if (botIA222.data.choices[0].text == 'error' || botIA222.data.choices[0].text ==
 m.reply(botIA222.data.choices[0].text.trim());
 } catch {
 try {
-const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por elrebelde21, tu seras NovaBot-MD`
+const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por Eliasar_YT, tu seras YuGi-BOT`
 const Empireapi1 = await fetch(`https://api.cafirexos.com/api/chatgpt?text=${text}&name=${m.name}&prompt=${syms1}`);
 const empireApijson1 = await Empireapi1.json();
 if (empireApijson1.resultado == 'error' || empireApijson1.resultado == '' || !empireApijson1.resultado) return XD; // causar error undefined para lanzar msg de error
